@@ -1,0 +1,52 @@
+html,body,ul,li {padding: 0; margin: 0}
+li {list-style: none;}
+
+.wa {width: auto;}
+.w160 {width: 160px !important;}
+
+.bg-white {background: white;}
+
+.fs12 {font-size: 0.85rem;}
+
+.ptb1 {padding: 1rem 0;}
+.pt1 {padding-top: 1rem;}
+
+.tc {text-align: center;}
+.tr {text-align: right;}
+
+.bootstrap-select {width: auto !important;}
+.btn-select-sm {border: 1px solid #ced4da; padding-bottom: 2px !important; }
+.btn-select-sm:after {vertical-align: 0.5em !important;}
+
+.navbar {padding-left: 0; padding-right: 0;}
+.nav-bg {background: #f8f9fa; padding: 0.25rem 0;}
+.nav-item {margin: 0 0.4rem;}
+.navbar .form-inline select {margin-right: 0.4rem;}
+
+.advantage {padding: 1.5rem 0;}
+.advantage h4 {font-size: 2rem; margin-bottom: 1.5rem;}
+.advantage .col-12 {padding-bottom: 1.5rem;}
+.advantage .card {border: none;}
+
+.steps h4 {font-size: 2rem; margin-bottom: 1.5rem;}
+.steps img {width: 100%;}
+
+.footer {background: #00162b; margin-top: 1.5rem; color: #f1f1f1;}
+.footer .container {padding-top: 2rem; padding-bottom: 2rem;}
+.footer hr {margin: 0; padding: 0;}
+.footer {font-size: 13px;}
+.footer h5 {font-size: 15px; font-weight: 500;}
+.footer .qrcode {width: 120px; margin: 0.25rem auto; float: right;}
+.footer .qrcode img {width: 100%; border-width: 0 1px 1px 0; border-style: solid; border-color: #666;}
+.footer .col-lg-12 {margin-top: 1rem; color: #9b9b9b;}
+
+.applyfor {margin-top: 1.5rem;}
+.applyfor .accordion .card {border: 0;}
+.applyfor .accordion .card .card-header h6 {cursor: pointer;}
+
+.imginput-bl img { width: 120px; height: 160px; border: 1px solid #ccc; border-radius: 5px; }
+.imginput-bl input { width: 120px; height: 160px; }
+
+@media (max-width: 1200px) {
+	.form-inline {display: none;}
+}
