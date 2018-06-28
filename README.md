@@ -39,22 +39,6 @@ WesPHP是一款轻型，灵巧的PHP项目开发框架。非常适合中小型�
 ====
 WesPHP框架要求PHP版本 > 5.0, 使用Mysql数据必须用PDO扩展（支持Mysql）,其他扩展根据业务需求安装，用到了再装也可以。
 
-```flow
-st=>start: 开始
-e=>end: 登录
-io1=>inputoutput: 输入用户名密码
-sub1=>subroutine: 数据库查询子类
-cond=>condition: 是否有此用户
-cond2=>condition: 密码是否正确
-op=>operation: 读入用户信息
-
-st->io1->sub1->cond
-cond(yes,right)->cond2
-cond(no)->io1(right)
-cond2(yes,right)->op->e
-cond2(no)->io1
-```
-
 安装WesPHP
 ----
 从GitHub下载源码包后，解压。项目中引用即可。如：
